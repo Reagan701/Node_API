@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h2>This is the Home page</h2>
   </div>
 </template>
 
@@ -16,3 +15,14 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.home {
+  background-image: url(https://i.postimg.cc/mZwkKwtG/pick.png);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height:100vh;
+  color: white;
+}
+</style>
