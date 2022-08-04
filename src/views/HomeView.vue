@@ -27,7 +27,7 @@ export default {
 }
 #logo{
   height:100%;
-  width:70%;
+  width:50%;
   padding: 0 0 100px 0;
 }
 </style>
