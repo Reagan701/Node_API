@@ -52,7 +52,7 @@ export default {
 
 #cardzone{
   padding: 40px 40px 40px 40px;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .card, .btn, input{
