@@ -20,14 +20,8 @@
                     <a
                       id="live"
                       target="_blank"
-                      class="text-primary bi bi-github mx-2 fs-1"
+                      class="text-primary fa-solid fa-eye fs-1"
                       :href="item.link1"
-                    ></a>
-                    <a
-                      id="live"
-                      target="_blank"
-                      class="text-primary bi bi-link-45deg mx-2 fs-1"
-                      :href="item.link2"
                     ></a>
                   </div>
                 </div>
@@ -49,11 +43,55 @@ export default {
           id: 1,
           icon: "https://i.postimg.cc/RZCK8KBX/Milk.webp",
           title: "Milk",
+          link1: "https://github.com/Tempestfury11/Age2Days",
         },
         {
           id: 2,
           icon: "https://i.postimg.cc/d1GhDVFh/cereal.webp",
           title: "Cereal",
+          link1: "https://github.com/Tempestfury11/Age2Days",
+        },
+        {
+          id: 3,
+          icon: "https://i.postimg.cc/rmKSjYbS/bread.webp",
+          title: "Bread",
+          link1: "https://github.com/Tempestfury11/Age2Days",
+        },
+        {
+          id: 4,
+          icon: "https://i.postimg.cc/YSg4SKJD/cheese.jpg",
+          title: "Cheese",
+          link1: "https://github.com/Tempestfury11/Age2Days",
+        },
+        {
+          id: 5,
+          icon: "https://i.postimg.cc/s2ScCLKs/tomato.jpg",
+          title: "Tomato",
+          link1: "https://github.com/Tempestfury11/Age2Days",
+        },
+        {
+          id: 6,
+          icon: "https://i.postimg.cc/LXxvx1N1/brussell.jpg",
+          title: "Brussel",
+          link1: "https://github.com/Tempestfury11/Age2Days",
+        },
+        {
+          id: 7,
+          icon: "https://i.postimg.cc/kGZ0hZfK/beef.jpg",
+          title: "Beef",
+          link1: "https://github.com/Tempestfury11/Age2Days",
+        },
+        {
+          id: 8,
+          icon: "https://i.postimg.cc/QCgJPYgV/drumstick.jpg",
+          title: "Chicken",
+          link1: "https://github.com/Tempestfury11/Age2Days",
+        },
+        {
+          id: 9,
+          icon: "https://i.postimg.cc/zfRX8syt/coffee.webp",
+          title: "Coffee",
+          link1: "https://github.com/Tempestfury11/Age2Days",
         },
       ],
     };
@@ -77,26 +115,13 @@ export default {
   width: 285px !important;
   width: fit-content;
   background: white;
-  color: #00a5ff;
+  color: navy;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   border-radius: 30px;
-}
-.card-content .card .layer {
-  position: absolute;
-  top: calc(100% - 2px);
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(#00a5ff, #0004ff);
-  z-index: 1;
-  transition: 0.5s;
-}
-.card-content .card:hover .layer {
-  top: 0;
 }
 .card-content .card .content {
   position: relative;
@@ -112,21 +137,15 @@ export default {
   margin: 0 auto;
   overflow: hidden;
   overflow: hidden;
-  border: 5px solid navy;
+  border: 5px solid red;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .card-content .card .content .details h2 {
   font-size: 18px;
 }
 .card-content .card .content .details span {
-  color: #03a9f4;
+  color: navy;
   font-size: 14px;
   transition: 0.5s;
-}
-.card-content .card:hover .content .details span {
-  color: #fff;
-}
-.card-content .card:hover .content p {
-  color: white;
 }
 </style>
