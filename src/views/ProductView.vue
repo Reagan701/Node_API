@@ -2,7 +2,7 @@
 <div id="main">
     <div class="wrapper">
 		<div class="img-area">
-			<img src="https://i.postimg.cc/QCgJPYgV/drumstick.jpg" height="280" width="380">
+			<img id="display-box" src="" height="280" width="380">
 		</div>
 		<div class="text-area">
 			<div class="information-area">
@@ -38,7 +38,7 @@ export default {
   background-size: cover;
   background-position:center;
   background-repeat: no-repeat;
-  height:100%;
+  height:100vh;
   color: white;
 }
 
@@ -131,5 +131,9 @@ export default {
 	content: '+';
 	padding-right: 10px;
 	font-weight: bold;
+}
+
+#display-box{
+    border-radius: 20px;
 }
 </style>

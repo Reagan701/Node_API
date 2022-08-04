@@ -102,6 +102,7 @@ export default {
 <style scoped>
 #food-img {
   object-fit: cover;
+  border-radius: 30px;
 }
 .card-content {
   margin: 50px auto 50px;
