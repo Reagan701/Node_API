@@ -2,7 +2,7 @@
 <div id="main">
     <div class="wrapper">
 		<div class="img-area">
-			<img src="" height="280" width="380">
+			<img src="https://i.postimg.cc/QCgJPYgV/drumstick.jpg" height="280" width="380">
 		</div>
 		<div class="text-area">
 			<div class="information-area">
