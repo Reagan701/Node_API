@@ -1,12 +1,12 @@
 <template>
-  <div id="main" class="login">
-      <h1 class="text-light">This is a Login page</h1>
+  <div id="main">
     <div class="container">
-      <div class="row justify-content-center mt-5">
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="card shadow">
+      <div class="row justify-content-center">
+        <div id="loginzone" class="col-lg-4 col-md-6 col-sm-6">
+          <h2 class="">Sign-in To Your Account</h2>
+          <div id="cardzone" class="card shadow  text-dark">
             <div class="card-title text-center border-bottom">
-            <h2 class="p-3">Login</h2>
+            <h2>Login</h2>
             </div>
             <div class="card-body">
             <form>
@@ -17,10 +17,6 @@
               <div class="mb-4">
                 <label for="password" class="form-label">Password</label>
                 <input type="password" class="form-control" id="password" />
-              </div>
-              <div class="mb-4">
-                <input type="checkbox" class="form-check-input" id="remember" />
-                <label for="remember" class="form-label">Remember Me</label>
               </div>
               <div class="d-grid">
                 <button type="submit" class="btn bg-primary text-dark">Login</button>
@@ -41,31 +37,25 @@ export default {
 </script>
 
 <style>
-:root{
-  --main-bg: ;
-}
-
-.main-bg {
-  background: var(--main-bg) !important;
-}
-
 #main{
-  background-image: linear-gradient(50deg, #0014a9, #ff0000);
-  padding: 175px 0 175px 0;
+  background-image: url(https://i.postimg.cc/LXtKt6zr/pasta-5120x2880-tomato-olives-garlic-olive-5k-16053.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  height:100vh;
+  color: white;
 }
 
-input:focus, button:focus {
-  border: 1px solid var(--main-bg) !important;
-  box-shadow: none !important;
+#loginzone{
+  padding: 150px 0 0 0;
 }
 
-.form-check-input:checked {
-  background-color: var(--main-bg) !important;
-  border-color: var(--main-bg) !important;
+#cardzone{
+  padding: 40px 40px 40px 40px;
+  border-radius: 30px;
 }
 
 .card, .btn, input{
-  border-radius:0 !important;
+  border-radius:0 ;
 }
-
 </style>

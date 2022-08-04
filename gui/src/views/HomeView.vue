@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h2>This is the Home page</h2>
+    <img id="logo" src="https://i.postimg.cc/TYm7hHJ4/pick-removebg-preview.png" alt="">
   </div>
 </template>
 
@@ -18,11 +18,16 @@ export default {
 
 <style scoped>
 .home {
-  background-image: url(https://i.postimg.cc/mZwkKwtG/pick.png);
+  background-image: url(https://i.postimg.cc/LXtKt6zr/pasta-5120x2880-tomato-olives-garlic-olive-5k-16053.jpg);
   background-size: cover;
   background-position:center;
   background-repeat: no-repeat;
   height:100vh;
   color: white;
+}
+#logo{
+  height:100%;
+  width:50%;
+  padding: 0 0 100px 0;
 }
 </style>
